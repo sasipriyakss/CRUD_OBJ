@@ -43,7 +43,7 @@ label,
 input,
 select{
     display: block;
-    width: 250px;
+    width: 200px;
     height: 25px;
     margin-bottom: 5px;
     padding-left: 2px ;
@@ -96,11 +96,13 @@ tr:hover{
 
 .modal-content
 {
+    
     background-color: #fff;
     margin: 15% auto;
-    width: 20%;
+    max-width: 300px;
     padding: 20px;
     border: 1px solid #888;
+    justify-content: center;
 
 }
 .close
